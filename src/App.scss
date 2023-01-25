@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  font-family: "Roboto";
+}
+
+// Common Style Classes
+.d-flex {
+  display: flex;
+}
+.align-item-center {
+  display: flex;
+  align-items: center;
+}
+.space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.space-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.space-evenly {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
