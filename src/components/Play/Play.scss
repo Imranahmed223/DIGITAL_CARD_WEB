@@ -1,0 +1,29 @@
+@import "../../scss/mixins";
+
+.video-js {
+  width: 100%;
+  height: 600px;
+  @include respond(tab-port) {
+    margin-top: 7rem;
+    height: 350px;
+  }
+}
+.player-screen {
+  position: relative;
+}
+.play-logo {
+  & > img {
+    position: absolute;
+    top: 2rem;
+    // bottom: 60%;
+    right: 2%;
+    z-index: 1000000000000000;
+    width: 7rem;
+    height: 5rem;
+    @include respond(tab-port) {
+      top: 11rem;
+      height: 5rem;
+      width: 7rem;
+    }
+  }
+}

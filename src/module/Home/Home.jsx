@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import Topbar from "../../commonComponents/Topbar/Topbar";
+import Play from "../../components/Play/Play";
 
 // social Icons
 
@@ -10,6 +11,10 @@ import whatsapp from "../../assest/Home/whatsapp.svg";
 import arrow from "../../assest/Home/arrow-icon.svg";
 import phone from "../../assest/Home/phone.svg";
 import location from "../../assest/Home/location.svg";
+
+// Video
+import video from "../../assest/Home/video.mp4";
+
 // Images
 import item from "../../assest/Home/item.png";
 import hero from "../../assest/Home/hero.png";
@@ -59,6 +64,12 @@ const Home = () => {
         </div>
 
         {/* Video Seciton */}
+        <div className="home-video">
+          <div className="home-video-container">
+            <h3>Video</h3>
+            <Play src={video} />
+          </div>
+        </div>
 
         <div className="home-container">
           <div className="home-container-links">

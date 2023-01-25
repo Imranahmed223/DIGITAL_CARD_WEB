@@ -103,4 +103,13 @@
       }
     }
   }
+
+  &-video {
+    &-container {
+      & > h3 {
+        margin-left: 2rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
 }
