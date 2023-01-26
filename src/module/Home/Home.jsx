@@ -18,6 +18,7 @@ import video from "../../assest/Home/video.mp4";
 // Images
 import item from "../../assest/Home/item.png";
 import hero from "../../assest/Home/hero.png";
+import logo from "../../assest/logo.svg";
 
 const Home = () => {
   return (
@@ -27,6 +28,9 @@ const Home = () => {
         <Topbar />
         <div className="home-hero">
           <img src={hero} alt="hero" />
+        </div>
+        <div className="home-logo">
+          <img src={logo} alt="" />
         </div>
         <div className="home-container">
           <div className="home-container-content">

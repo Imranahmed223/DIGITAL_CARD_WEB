@@ -1,8 +1,18 @@
 @import "../../scss/variable";
+@import "../../scss/mixins";
 .home {
   &-hero {
     & > img {
       width: 100%;
+    }
+  }
+  &-logo {
+    text-align: right;
+    margin-right: 5rem;
+    margin-top: -6rem;
+    & > img {
+      width: 9rem;
+      height: 9rem;
     }
   }
   &-container {

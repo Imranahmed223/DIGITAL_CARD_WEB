@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.df538d67.css",
-    "main.js": "/static/js/main.71c8d033.js",
+    "main.css": "/static/css/main.bb581608.css",
+    "main.js": "/static/js/main.3b4dd265.js",
     "static/media/video.mp4": "/static/media/video.3770b9eb2a017b9a97de.mp4",
     "static/media/hero.png": "/static/media/hero.42b9b5514af55fcdef21.png",
     "static/media/viber.svg": "/static/media/viber.3c906f93f6dae99375214c00534c66fa.svg",
     "static/media/whatsapp.svg": "/static/media/whatsapp.1559c6e69332970067452e8c5e367ab4.svg",
     "static/media/item.png": "/static/media/item.b2519dfd1faa87de2a27.png",
     "static/media/facebook.svg": "/static/media/facebook.51819fd730130e42941fe41ee4080655.svg",
+    "static/media/logo.svg": "/static/media/logo.4b0b0b821c810113f1ffa3c60feb4115.svg",
     "static/media/phone.svg": "/static/media/phone.19c124aaaff03deb7a1a4df34d8807f7.svg",
     "static/media/location.svg": "/static/media/location.9373aafc65c5a176776922c4b535032c.svg",
     "index.html": "/index.html",
     "static/media/arrow-icon.svg": "/static/media/arrow-icon.ccc0d9e79b9cdf883df848aa13fb0950.svg",
-    "main.df538d67.css.map": "/static/css/main.df538d67.css.map",
-    "main.71c8d033.js.map": "/static/js/main.71c8d033.js.map"
+    "main.bb581608.css.map": "/static/css/main.bb581608.css.map",
+    "main.3b4dd265.js.map": "/static/js/main.3b4dd265.js.map"
   },
   "entrypoints": [
-    "static/css/main.df538d67.css",
-    "static/js/main.71c8d033.js"
+    "static/css/main.bb581608.css",
+    "static/js/main.3b4dd265.js"
   ]
 }
