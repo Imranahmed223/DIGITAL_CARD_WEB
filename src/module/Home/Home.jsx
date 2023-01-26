@@ -22,6 +22,7 @@ import hero from "../../assest/Home/hero.png";
 const Home = () => {
   return (
     <>
+      {/* <h1>Hi My Name Is Kham</h1> */}
       <div className="home">
         <Topbar />
         <div className="home-hero">
