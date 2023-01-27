@@ -1,11 +1,12 @@
 @import "../../scss/mixins";
 
+// Video Height and width
 .video-js {
   width: 100%;
-  height: 600px;
+  height: 280px;
   @include respond(tab-port) {
     // margin-top: 7rem;
-    height: 350px;
+    height: 280px;
   }
 }
 .player-screen {
