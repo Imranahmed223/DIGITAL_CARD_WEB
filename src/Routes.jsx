@@ -11,7 +11,8 @@ const Routess = () => {
     <>
       <HashRouter>
         <Routes>
-          <Route path="/:id?" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/app/:id?" element={<Home />} />
         </Routes>
       </HashRouter>
     </>
