@@ -6,7 +6,7 @@ const Routess = () => {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/:id?" element={<Home />} />
         </Routes>
       </Router>
     </>
