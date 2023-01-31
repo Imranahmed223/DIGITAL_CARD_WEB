@@ -20,7 +20,7 @@ const Home = () => {
   const { id } = useParams();
   const dispatch = useDispatch();
   const { info } = useSelector((state) => state.infoReducer);
-  console.log("info is", info);
+
   useEffect(() => {
     if (id) {
       const result = { id: "63c83bfe2cf069d756e94496" };
