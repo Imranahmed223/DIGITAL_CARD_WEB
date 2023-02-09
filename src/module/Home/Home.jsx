@@ -5,6 +5,20 @@ import Play from "../../components/Play/Play";
 import facebook from "../../assest/Home/facebook.svg";
 import viber from "../../assest/Home/viber.svg";
 import whatsapp from "../../assest/Home/whatsapp.svg";
+import dribble from "../../assest/Icons/circle.png";
+// import viber from "../../assest/Icons/viber.png";
+// import viber from "../../assest/Icons/viber.png";
+import tripadvisor from "../../assest/Icons/tripadvisor.png";
+import instagram from "../../assest/Icons/insta.png";
+import linkedin from "../../assest/Icons/linkedin.png";
+import patreon from "../../assest/Icons/orange.png";
+import skype from "../../assest/Icons/skype.png";
+import snapchat from "../../assest/Icons/snapchat.png";
+import telegram from "../../assest/Icons/telegram.png";
+import twitter from "../../assest/Icons/twitter.png";
+import vimeo from "../../assest/Icons/vipe.png";
+import youtube from "../../assest/Icons/youtube.png";
+import tiktok from "../../assest/Icons/tiktok.png";
 import arrow from "../../assest/Home/arrow-icon.svg";
 import phone from "../../assest/Home/phone.svg";
 import location from "../../assest/Home/location.svg";
@@ -53,9 +67,111 @@ const Home = () => {
           <div className="home-container-social">
             <h3>Social Media</h3>
             <div className="home-container-social-icon">
-              <img src={facebook} alt="facebook" />
-              <img src={whatsapp} alt="whats app" />
-              <img src={viber} alt="viber" />
+              {info?.socialLinks?.facebook != null ? (
+                <a href={info?.socialLinks?.facebook}>
+                  <img src={facebook} alt="facebook" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.instagram != null ? (
+                <a href={info?.socialLinks?.instagram}>
+                  <img src={instagram} alt="instagram" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.linkedin != null ? (
+                <a href={info?.socialLinks?.linkedin}>
+                  <img src={linkedin} alt="linkedin" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.twitter != null ? (
+                <a href={info?.socialLinks?.twitter}>
+                  <img src={twitter} alt="twitter" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.youtube != null ? (
+                <a href={info?.socialLinks?.youtube}>
+                  <img src={youtube} alt="youtube" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.tiktok != null ? (
+                <a href={info?.socialLinks?.tiktok}>
+                  <img src={tiktok} alt="tiktok" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.whatsapp != null ? (
+                <a href={info?.socialLinks?.whatsapp}>
+                  <img src={whatsapp} alt="whatsapp" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.snapchat != null ? (
+                <a href={info?.socialLinks?.snapchat}>
+                  <img src={snapchat} alt="snapchat" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.telegram != null ? (
+                <a href={info?.socialLinks?.telegram}>
+                  <img src={telegram} alt="telegram" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.vimeo != null ? (
+                <a href={info?.socialLinks?.vimeo}>
+                  <img src={vimeo} alt="vimeo" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.patreon != null ? (
+                <a href={info?.socialLinks?.patreon}>
+                  <img src={patreon} alt="vimeo" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.viber != null ? (
+                <a href={info?.socialLinks?.viber}>
+                  <img src={viber} alt="viber" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.tripadvisor != null ? (
+                <a href={info?.socialLinks?.tripadvisor}>
+                  <img src={tripadvisor} alt="tripadvisor" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.dribble != null ? (
+                <a href={info?.socialLinks?.dribble}>
+                  <img src={dribble} alt="dribble" />
+                </a>
+              ) : (
+                ""
+              )}
+              {info?.socialLinks?.skype != null ? (
+                <a href={info?.socialLinks?.skype}>
+                  <img src={skype} alt="skype" />
+                </a>
+              ) : (
+                ""
+              )}
             </div>
           </div>
         </div>
@@ -110,7 +226,11 @@ const Home = () => {
             <div className="home-container-contact-item">
               <div className="home-container-contact-item-phone">
                 <img src={location} alt="location" />
-                <p>Bosnia & Herzegnovia</p>
+                {/* <p>Bosnia & Herzegnovia</p> */}
+                <p>
+                  <span>{info?.contactInfo?.location?.latitude}</span>{" "}
+                  <span>{info?.contactInfo?.location?.longitude}</span>
+                </p>
               </div>
               <div className="home-container-contact-item-button">
                 <button>Find</button>
