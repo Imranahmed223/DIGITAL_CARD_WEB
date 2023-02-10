@@ -48,10 +48,14 @@ const Home = () => {
       <div className="home">
         <Topbar info={info} />
         <div className="home-hero">
-          <img src={info?.coverImage ? info.coverImage : ""} alt="hero" />
+          <img
+            crossOrigin="true"
+            src={info?.coverImage ? info.coverImage : ""}
+            alt="hero"
+          />
         </div>
         <div className="home-logo">
-          <img src={logo} alt="" />
+          <img crossOrigin="true" src={logo} alt="" />
         </div>
         <div className="home-container">
           <div className="home-container-content">
@@ -69,105 +73,105 @@ const Home = () => {
             <div className="home-container-social-icon">
               {info?.socialLinks?.facebook != null ? (
                 <a href={info?.socialLinks?.facebook}>
-                  <img src={facebook} alt="facebook" />
+                  <img crossOrigin="true" src={facebook} alt="facebook" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.instagram != null ? (
                 <a href={info?.socialLinks?.instagram}>
-                  <img src={instagram} alt="instagram" />
+                  <img crossOrigin="true" src={instagram} alt="instagram" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.linkedin != null ? (
                 <a href={info?.socialLinks?.linkedin}>
-                  <img src={linkedin} alt="linkedin" />
+                  <img crossOrigin="true" src={linkedin} alt="linkedin" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.twitter != null ? (
                 <a href={info?.socialLinks?.twitter}>
-                  <img src={twitter} alt="twitter" />
+                  <img crossOrigin="true" src={twitter} alt="twitter" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.youtube != null ? (
                 <a href={info?.socialLinks?.youtube}>
-                  <img src={youtube} alt="youtube" />
+                  <img crossOrigin="true" src={youtube} alt="youtube" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.tiktok != null ? (
                 <a href={info?.socialLinks?.tiktok}>
-                  <img src={tiktok} alt="tiktok" />
+                  <img crossOrigin="true" src={tiktok} alt="tiktok" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.whatsapp != null ? (
                 <a href={info?.socialLinks?.whatsapp}>
-                  <img src={whatsapp} alt="whatsapp" />
+                  <img crossOrigin="true" src={whatsapp} alt="whatsapp" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.snapchat != null ? (
                 <a href={info?.socialLinks?.snapchat}>
-                  <img src={snapchat} alt="snapchat" />
+                  <img crossOrigin="true" src={snapchat} alt="snapchat" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.telegram != null ? (
                 <a href={info?.socialLinks?.telegram}>
-                  <img src={telegram} alt="telegram" />
+                  <img crossOrigin="true" src={telegram} alt="telegram" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.vimeo != null ? (
                 <a href={info?.socialLinks?.vimeo}>
-                  <img src={vimeo} alt="vimeo" />
+                  <img crossOrigin="true" src={vimeo} alt="vimeo" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.patreon != null ? (
                 <a href={info?.socialLinks?.patreon}>
-                  <img src={patreon} alt="vimeo" />
+                  <img crossOrigin="true" src={patreon} alt="vimeo" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.viber != null ? (
                 <a href={info?.socialLinks?.viber}>
-                  <img src={viber} alt="viber" />
+                  <img crossOrigin="true" src={viber} alt="viber" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.tripadvisor != null ? (
                 <a href={info?.socialLinks?.tripadvisor}>
-                  <img src={tripadvisor} alt="tripadvisor" />
+                  <img crossOrigin="true" src={tripadvisor} alt="tripadvisor" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.dribble != null ? (
                 <a href={info?.socialLinks?.dribble}>
-                  <img src={dribble} alt="dribble" />
+                  <img crossOrigin="true" src={dribble} alt="dribble" />
                 </a>
               ) : (
                 ""
               )}
               {info?.socialLinks?.skype != null ? (
                 <a href={info?.socialLinks?.skype}>
-                  <img src={skype} alt="skype" />
+                  <img crossOrigin="true" src={skype} alt="skype" />
                 </a>
               ) : (
                 ""
@@ -196,11 +200,15 @@ const Home = () => {
                     <div className="home-container-links-item">
                       <div className="home-container-links-item-image">
                         <a href={data.link}>
-                          <img src={data.photoPath} alt="item" />
+                          <img
+                            crossOrigin="true"
+                            src={data.photoPath}
+                            alt="item"
+                          />
                         </a>
                         <h4>Sasa</h4>
                       </div>
-                      <img src={arrow} alt="arrow" />
+                      <img crossOrigin="true" src={arrow} alt="arrow" />
                     </div>
                   </div>
                 );
@@ -211,7 +219,7 @@ const Home = () => {
           <div className="home-container-contact">
             <div className="home-container-contact-item">
               <div className="home-container-contact-item-phone">
-                <img src={phone} alt="phone" />
+                <img crossOrigin="true" src={phone} alt="phone" />
                 <p>
                   {info?.contactInfo?.phoneNumber
                     ? info.contactInfo.phoneNumber
@@ -225,7 +233,7 @@ const Home = () => {
 
             <div className="home-container-contact-item">
               <div className="home-container-contact-item-phone">
-                <img src={location} alt="location" />
+                <img crossOrigin="true" src={location} alt="location" />
                 {/* <p>Bosnia & Herzegnovia</p> */}
                 <p>
                   <span>{info?.contactInfo?.location?.latitude}</span>{" "}
