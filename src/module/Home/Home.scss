@@ -96,9 +96,12 @@
         &-image {
           display: flex;
           align-items: center;
-          & > img {
-            width: 10rem;
-            margin-right: 1.5rem;
+          & > a {
+            & > img {
+              width: 10rem;
+              margin-right: 1.5rem;
+              height: 64px;
+            }
           }
         }
       }
@@ -116,8 +119,6 @@
           align-items: center;
           & > img {
             margin-right: 2rem;
-            height: 64px;
-            width: 139px;
           }
           & > p {
             font-size: 1.2rem;
