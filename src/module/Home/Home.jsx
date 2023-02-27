@@ -37,10 +37,10 @@ const Home = () => {
 
   useEffect(() => {
     if (id) {
-      const result = { id: "63c83bfe2cf069d756e94496" };
+      const result = { id };
       dispatch(getAllInfo(result));
     }
-  }, []);
+  }, [id]);
 
   return (
     <>
@@ -186,7 +186,7 @@ const Home = () => {
             <h3>Video</h3>
             {info?.videos?.map((data, key) => {
               // console.log("data is", data);
-              return <Play src={data} key={key} />;
+              return <Play crossOrigin="true" src={data} key={key} />;
             })}
           </div>
         </div>

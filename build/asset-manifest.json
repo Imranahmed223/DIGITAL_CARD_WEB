@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a16f9be3.css",
-    "main.js": "/static/js/main.7b34d026.js",
+    "main.js": "/static/js/main.bec2fd8c.js",
     "static/media/video.mp4": "/static/media/video.3770b9eb2a017b9a97de.mp4",
     "static/media/hero.png": "/static/media/hero.42b9b5514af55fcdef21.png",
     "static/media/viber.svg": "/static/media/viber.3c906f93f6dae99375214c00534c66fa.svg",
@@ -14,10 +14,10 @@
     "index.html": "/index.html",
     "static/media/arrow-icon.svg": "/static/media/arrow-icon.ccc0d9e79b9cdf883df848aa13fb0950.svg",
     "main.a16f9be3.css.map": "/static/css/main.a16f9be3.css.map",
-    "main.7b34d026.js.map": "/static/js/main.7b34d026.js.map"
+    "main.bec2fd8c.js.map": "/static/js/main.bec2fd8c.js.map"
   },
   "entrypoints": [
     "static/css/main.a16f9be3.css",
-    "static/js/main.7b34d026.js"
+    "static/js/main.bec2fd8c.js"
   ]
 }
